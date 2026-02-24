@@ -29,6 +29,34 @@ body {
     /* Tab'a basıldığında sayfanın en üstünde belirir [cite: 559] */
 }
 
+/* Figure ve Resim Düzenlemesi */
+figure {
+    margin: 20px 0;
+    text-align: left;
+    /* Görseli ve alt yazıyı sola yaslar */
+}
+
+img {
+    max-width: 250px;
+    /* Resmin maksimum genişliğini belirler */
+    height: auto;
+    /* Oranı koruyarak yüksekliği ayarlar */
+    border-radius: 50%;
+    /* Resmi yuvarlak yapar (Portfolyolar için şık durur) */
+    border: 3px solid #1E3A8A;
+    /* Şık bir çerçeve ekler */
+    display: block;
+    /* Altındaki yazıyla çakışmaması için */
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+
 /* 2. Focus Göstergesi: Erişilebilirlik için ASLA kaldırılmamalı (10 Puan) */
 /* [cite: 304, 305, 560, 561] */
 :focus {
